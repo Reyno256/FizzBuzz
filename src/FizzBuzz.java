@@ -11,7 +11,7 @@ class FizzBuzz {
         }
     }
 
-    private static int playFizzBuzz(int i) {
+    static int playFizzBuzz(int i) {
         // Find out which numbers divide i.
         boolean divisibleBy3 = i % 3 == 0;// semicolons
         boolean divisibleBy5 = i % 5 == 0;// type declaration
