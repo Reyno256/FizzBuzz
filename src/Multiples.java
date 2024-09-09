@@ -1,12 +1,13 @@
 public class Multiples {
     public static void main(String[] args) {
-        int sum = 0;
-        for(int i = 1;i<1000;i++){
+        final int maxIterations = 1000;
+        int numMultiples = 0;
+        for(int i = 1;i<maxIterations;i++){
             if (i%3 == 0||i%5 == 0) {
                 //System.out.println(i);
-                sum++;
+                numMultiples++;
             }
         }
-        System.out.println(sum);
+        System.out.println(numMultiples);
     }
 }
